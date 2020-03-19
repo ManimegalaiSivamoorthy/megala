@@ -46,7 +46,7 @@ public class MyStepdefs extends BaseClass {
 
     @When("user opens URL {string}")
     public void userOpensURL(String url) {
-        logger.info("*****Opening Url******");
+        logger.info("********Opening Url*********");
         driver.get(url);
         driver.manage().window().maximize();
     }
